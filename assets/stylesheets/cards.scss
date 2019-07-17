@@ -5,8 +5,9 @@
   background-position: center;
   color: white;
   position: relative;
+  border-radius: 2%;
   &.active {
-    border: 10px solid red;
+    border: 10px solid gray;
   }
 }
 
@@ -33,11 +34,11 @@
 }
 
 .card-description h2 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .card-description p {
-  font-size: 14px;
+  font-size: 12px;
   opacity: 0.7;
   font-weight: lighter;
 }
@@ -55,4 +56,5 @@
 
 .card-link:hover {
   opacity: 0.1;
+  transform: scale(1.02);
 }
